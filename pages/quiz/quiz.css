@@ -255,6 +255,7 @@ main{
     background: var(--bg-desktop) var(--bg-color);
     background-size: cover;
     background-repeat: no-repeat;
+    }
 
     header{
         margin-block: 81px;
