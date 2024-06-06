@@ -1,4 +1,6 @@
 export let tema = "claro"
+export const body = document.querySelector("body")
+export const botaoTema = document.querySelector(".tema button")
 
 export function trocarTema(tema, body, botaoTema){
     // alert("trocadetema")
