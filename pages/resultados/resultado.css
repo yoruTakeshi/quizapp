@@ -73,6 +73,24 @@ header{
     border-radius: 5px;
 }
 
+.assunto_icone.html{
+    background: var(--bg-html);
+}
+
+.assunto_icone.css{
+    background: var(--bg-css);
+
+}
+
+.assunto_icone.javascript{
+    background: var(--bg-javascript);
+}
+
+.assunto_icone.acessibilidade{
+    background: var(--bg-acessibilidade);
+}
+
+
 .assunto_icone img{
     width: 100%;
 }
@@ -128,6 +146,7 @@ main h2 strong{
     font-weight: 500;
 }
 
+
 .pontuacao{
     background: var(--pontuacao-bg);
     padding: 32px;
@@ -167,6 +186,10 @@ main button:hover{
     background: var(--purple-hover);
     cursor: pointer;
     transition: background 0.6s;
+}
+button a{
+    text-decoration: none;
+    color: var(--primary-text-color);
 }
 
 @media(min-width: 1100px){

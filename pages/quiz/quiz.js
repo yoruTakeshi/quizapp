@@ -9,7 +9,7 @@ let pontos = 0
 let pergunta = 1
 let resposta = ""
 let idInputResposta = ""
-let respostaCorretaId
+let respostaCorretaId = ""
 
 botaoTema.addEventListener("click", () => {
     trocarTema(tema, body, botaoTema)
@@ -142,8 +142,8 @@ function validarResposta(){
 
 function finalizar(){
     localStorage.setItem("pontos", pontos)
-    window.location.href = "../resultado/resultado.html"
-})
+    window.location.href = "../resultados/resultado.html"
+}
 
 function proximaPergunta(){
     montarPergunta()
