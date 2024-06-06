@@ -1,4 +1,4 @@
-let tema = "claro"
+export let tema = "claro"
 
 export function trocarTema(tema, body, botaoTema){
     // alert("trocadetema")
