@@ -61,13 +61,14 @@ header{
 }
 
 .tema button{
-
+    display: flex;
     height: 20px;
     width: 32px;
     background: var(--purple);
     border: 0;
     border-radius: 999px;
     padding: 4px;
+    justify-content: flex-end;
 }
 
 .tema button div{

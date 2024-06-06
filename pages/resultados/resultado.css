@@ -168,7 +168,7 @@ main button:hover{
 }
 
 @media(min-width: 1100px){
-    body{
+        body{
         background: var(--bg-desktop) var(--bg-color);
         background-size: cover;
         background-repeat: no-repeat;
